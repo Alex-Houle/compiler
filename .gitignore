@@ -1,0 +1,52 @@
+# =========================
+# Build artifacts (CMake)
+# =========================
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# =========================
+# Compiler outputs
+# =========================
+*.o
+*.a
+*.so
+*.out
+compiler
+
+# =========================
+# Assembly / linker outputs
+# =========================
+*.s
+*.asm
+*.obj
+*.elf
+
+# =========================
+# Debugging / profiling
+# =========================
+*.dSYM/
+*.gdb
+vgcore.*
+core
+core.*
+
+# =========================
+# Editor / IDE files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# =========================
+# OS / tooling noise
+# =========================
+*.log
+.cache/
