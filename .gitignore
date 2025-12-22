@@ -17,6 +17,7 @@ compile_commands.json
 *.so
 *.out
 compiler
+out
 
 # =========================
 # Assembly / linker outputs
@@ -44,6 +45,7 @@ core.*
 *.swo
 *~
 .DS_Store
+.clang-format
 
 # =========================
 # OS / tooling noise
